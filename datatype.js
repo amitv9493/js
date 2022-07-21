@@ -51,4 +51,5 @@ let mynumber = 123n;
 // or
 let samenumber = BigInt(123);
 console.log(mynumber)
+// bingint can perform with only bigint type of numbers
 
