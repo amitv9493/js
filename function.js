@@ -1,3 +1,5 @@
+'use strict';
+
 function firstchar(string){
     return string[0];
 }
@@ -15,3 +17,10 @@ function findTarget(array, target){
 
 const arr = [1,2,3,4,5,6,77];
 console.log(findTarget(arr, 77))
+
+function value_of_iron(quantity){
+    price = 56;
+    return 56*quantity
+}
+
+print(value_of_iron(10))

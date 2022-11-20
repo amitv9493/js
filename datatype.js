@@ -10,19 +10,19 @@
 let age = 22;
 let name = "amit";
 
-console.log(typeof age);
+console.log('type_of_age_before_typecasting',typeof age);
 
 // typecasting number to str:
 // add a blank str to number
 age = age + "";
-console.log(typeof age);
+console.log('type_of_age_is_after_typecasting', typeof age);
 
 age = String(age);
 
 // str to number
 let var2 = "3345";
 var2 = Number(var2);
-console.log(typeof var2);
+console.log('type of var2 is',typeof var2);
 
 
 // string concatenate
@@ -52,4 +52,10 @@ let mynumber = 123n;
 let samenumber = BigInt(123);
 console.log(mynumber)
 // bingint can perform with only bigint type of numbers
+
+let var3 = '33';
+let var4 = 44;
+console.log(var4+var3)
+
+console.log(myvar)
 

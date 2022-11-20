@@ -1,3 +1,5 @@
+'use strict';
+
 let num = 13;
 
 if (num % 2 == 0) {
@@ -26,8 +28,8 @@ let fName = false;
 
 if (fName) {
 	console.log(fName);
-}else {
-		console.log(`fName is falsy value`)
+} else {
+	console.log(`fName is falsy value`)
 }
 
 // conditional operator SIMILAR TO LIST COMPREHENSION IN PYTHON
@@ -38,6 +40,12 @@ let drink = ageOfPerson >= 5 ? 'coffee' : 'milk';
 console.log(drink)
 
 // AND OPERATOR &&
+let MyName = "Amit"
+if (ageOfPerson >= 55 && MyName[0] === "A") {
+	console.log("test pass")
+} else {
+	console.log("test failed")
+}
 
 // OR OPERATOR (||) PIPE WHICH IS ABOVE ENTER BUTTON
 
@@ -47,16 +55,15 @@ console.log(drink)
 let winningNumber = 20;
 let userGuess = +prompt("guess a number");
 
-if(userGuess === winningNumber){
+if (userGuess === winningNumber) {
 	console.log("guess is right");
-}else{
-	if(userGuess > winningNumber){
-        console.log("guess is more");
-    }else{
-        console.log("too low")
-    }
+} else {
+	if (userGuess > winningNumber) {
+		console.log("guess is more");
+	} else {
+		console.log("too low")
+	}
 }
 
-// else if
 
 
